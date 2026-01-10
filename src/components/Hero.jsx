@@ -36,7 +36,7 @@ const Hero = () => {
         className="absolute top-0 left-0 w-full h-full object-cover pointer-events-none"
         style={{ zIndex: -1 }}
       >
-        <source src="/video-adn.mp4" type="video/mp4" />
+        <source src="/video-adn2.mp4" type="video/mp4" />
       </video>
       
       {/* Dark Overlay - más oscuro */}
