@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #000000;
+    --bg-secondary: rgba(255, 255, 255, 0.05);
+    --bg-hover: rgba(255, 255, 255, 0.1);
+    --text-primary: #ffffff;
+    --text-secondary: rgba(255, 255, 255, 0.7);
+    --text-tertiary: rgba(255, 255, 255, 0.6);
+    --border-color: rgba(255, 255, 255, 0.1);
+    --border-hover: rgba(255, 255, 255, 0.2);
+    --cta-bg: #ffffff;
+    --cta-text: #000000;
+  }
+
+  html.light {
+    --bg-primary: #ffffff;
+    --bg-secondary: rgba(0, 0, 0, 0.05);
+    --bg-hover: rgba(0, 0, 0, 0.1);
+    --text-primary: #000000;
+    --text-secondary: rgba(0, 0, 0, 0.7);
+    --text-tertiary: rgba(0, 0, 0, 0.6);
+    --border-color: rgba(0, 0, 0, 0.1);
+    --border-hover: rgba(0, 0, 0, 0.2);
+    --cta-bg: #000000;
+    --cta-text: #ffffff;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    @apply antialiased transition-colors duration-300;
+  }
+}
+
+@layer utilities {
+  .fade-in-up {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Video Background Optimization */
+video {
+  object-fit: cover;
+  object-position: center;
+  will-change: transform;
+  transform: scale(1.01); /* Slight scale to avoid edges */
+}
+
+/* Navbar Logo - 69% larger */
+.navbar-logo {
+  height: 54px; /* h-8 (32px) * 1.69 = 54px */
+}
+
+@media (min-width: 768px) {
+  .navbar-logo {
+    height: 68px; /* h-10 (40px) * 1.69 = 67.6px ≈ 68px */
+  }
+}

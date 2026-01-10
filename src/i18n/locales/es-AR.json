@@ -1,0 +1,67 @@
+{
+  "navbar": {
+    "insights": "Insights",
+    "hablemos": "Hablemos"
+  },
+  "hero": {
+    "title": "Tech-first marketing.<br />Sport DNA.",
+    "subtitle": "Inteligencia sobre audiencias deportivas para que agencias vendan sponsorships y activaciones con ventaja.",
+    "description": "Creativity backed by intelligence — built to power agencies, not compete.",
+    "cta": "Hablemos",
+    "viewInsights": "Ver insights"
+  },
+  "whatWeDo": {
+    "title": "Intelligence layer for sports marketing & experiences.",
+    "bullets": [
+      "Observamos comportamiento real en audiencias deportivas (no supuestos).",
+      "Convertimos señales en insights accionables para estrategia y venta.",
+      "Desarrollamos y resolvemos todos los desafíos tecnólogicos de la campaña"
+    ]
+  },
+  "insightExtracts": {
+    "title": "Sample insights (extractos)",
+    "insights": [
+      {
+        "topic": "Amateur Football Audiences",
+        "insight": "El 68% de los aficionados al fútbol amateur consume contenido relacionado con nutrición y rendimiento durante la temporada.",
+        "signal": "~68% / +45% vs. promedio",
+        "soWhat": "Oportunidad para marcas de suplementos y nutrición deportiva en activaciones durante la temporada regular."
+      },
+      {
+        "topic": "Endurance Audiences",
+        "insight": "Los corredores de larga distancia muestran un pico de engagement con contenido de tecnología deportiva 3 semanas antes de eventos objetivo.",
+        "signal": "~3 semanas / +120% engagement",
+        "soWhat": "Ventana óptima para activaciones de marcas tech-deportivas previo a maratones y carreras."
+      },
+      {
+        "topic": "Amateur Football Audiences",
+        "insight": "El 52% de los aficionados busca contenido sobre recuperación y bienestar post-partido en las 24 horas siguientes.",
+        "signal": "~52% / +38% en ventana 24h",
+        "soWhat": "Momento clave para mensajes de marcas de wellness y recuperación post-ejercicio."
+      }
+    ],
+    "signal": "Signal:",
+    "soWhat": "So what:"
+  },
+  "forAgencies": {
+    "title": "For agencies.",
+    "description": "No competimos con vos. Te damos el layer de inteligencia para que tu propuesta sea más sólida frente a marcas.",
+    "benefits": [
+      "Venta: Propuestas más sólidas con datos reales de audiencias.",
+      "Diferenciación: Insights exclusivos que tus competidores no tienen.",
+      "Creatividad con evidencia: Ideas respaldadas por comportamiento real."
+    ]
+  },
+  "finalCTA": {
+    "title": "Hablemos por WhatsApp.",
+    "description": "Un mensaje, cero fricción.",
+    "cta": "Hablemos"
+  },
+  "footer": {
+    "tagline": "MAASI · Tech-first marketing. Sport DNA.",
+    "email": "hola@maasi.com"
+  },
+  "whatsapp": {
+    "message": "Hola MAASI, soy de una agencia y me interesa sumar un intelligence layer para sponsorships/activaciones. ¿Podemos hablar?"
+  }
+}

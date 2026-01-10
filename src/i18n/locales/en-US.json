@@ -1,0 +1,67 @@
+{
+  "navbar": {
+    "insights": "Insights",
+    "hablemos": "Let's Talk"
+  },
+  "hero": {
+    "title": "Tech-first marketing.<br />Sport DNA.",
+    "subtitle": "Intelligence on sports audiences so agencies can sell sponsorships and activations with an advantage.",
+    "description": "Creativity backed by intelligence — built to power agencies, not compete.",
+    "cta": "Let's Talk",
+    "viewInsights": "View insights"
+  },
+  "whatWeDo": {
+    "title": "Intelligence layer for sports marketing & experiences.",
+    "bullets": [
+      "We observe real behavior in sports audiences (not assumptions).",
+      "We convert signals into actionable insights for strategy and sales.",
+      "We develop and solve all the technological challenges of the campaign"
+    ]
+  },
+  "insightExtracts": {
+    "title": "Sample insights (extracts)",
+    "insights": [
+      {
+        "topic": "Amateur Football Audiences",
+        "insight": "68% of amateur football fans consume content related to nutrition and performance during the season.",
+        "signal": "~68% / +45% vs. average",
+        "soWhat": "Opportunity for supplement and sports nutrition brands in activations during the regular season."
+      },
+      {
+        "topic": "Endurance Audiences",
+        "insight": "Long-distance runners show a peak in engagement with sports technology content 3 weeks before target events.",
+        "signal": "~3 weeks / +120% engagement",
+        "soWhat": "Optimal window for sports-tech brand activations prior to marathons and races."
+      },
+      {
+        "topic": "Amateur Football Audiences",
+        "insight": "52% of fans seek content about recovery and post-match wellness in the following 24 hours.",
+        "signal": "~52% / +38% in 24h window",
+        "soWhat": "Key moment for wellness and post-exercise recovery brand messages."
+      }
+    ],
+    "signal": "Signal:",
+    "soWhat": "So what:"
+  },
+  "forAgencies": {
+    "title": "For agencies.",
+    "description": "We don't compete with you. We give you the intelligence layer so your proposal is stronger with brands.",
+    "benefits": [
+      "Sales: Stronger proposals with real audience data.",
+      "Differentiation: Exclusive insights your competitors don't have.",
+      "Creativity with evidence: Ideas backed by real behavior."
+    ]
+  },
+  "finalCTA": {
+    "title": "Let's talk on WhatsApp.",
+    "description": "One message, zero friction.",
+    "cta": "Let's Talk"
+  },
+  "footer": {
+    "tagline": "MAASI · Tech-first marketing. Sport DNA.",
+    "email": "hola@maasi.com"
+  },
+  "whatsapp": {
+    "message": "Hello MAASI, I'm from an agency and I'm interested in adding an intelligence layer for sponsorships/activations. Can we talk?"
+  }
+}
