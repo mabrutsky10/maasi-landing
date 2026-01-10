@@ -76,8 +76,35 @@ Where `1234567890` is your WhatsApp number in international format (country code
 
 Currently, the links use the generic format which opens WhatsApp and lets users select a contact. This works but isn't ideal for conversion.
 
+## Deployment
+
+This project is deployed on Vercel and connected to GitHub for automatic deployments.
+
+- **Repository**: https://github.com/mabrutsky10/maasi-landing
+- **Production URL**: https://maasi-landing-d7i0n5iet-maxs-projects-79d9788b.vercel.app
+- **Vercel Dashboard**: https://vercel.com/maxs-projects-79d9788b/maasi-landing
+
+### Deploying Updates
+
+1. Push changes to the `main` branch:
+   ```bash
+   git add .
+   git commit -m "Your commit message"
+   git push origin main
+   ```
+
+2. Vercel will automatically deploy the changes.
+
+### Manual Deployment
+
+To deploy manually using Vercel CLI:
+```bash
+vercel --prod
+```
+
 ## Customization
 
 - **Colors**: Edit Tailwind classes in components or extend theme in `tailwind.config.js`
 - **Content**: All copy is in the component files
 - **Animations**: Scroll reveal timing can be adjusted in `src/index.css`
+- **Languages**: Add new languages by creating translation files in `/src/i18n/locales/` and updating `LanguageContext.jsx`
